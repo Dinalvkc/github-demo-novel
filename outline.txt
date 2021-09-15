@@ -1,2 +1,3 @@
 Section 4 :
 This is the sample code for Staging changes with git add.
+Commit History 
