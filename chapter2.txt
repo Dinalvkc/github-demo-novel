@@ -1,0 +1,11 @@
+Commit history basics
+Start with a simple history example: a repo with 3 linear commits.
+
+Commit A is the parent of commit B, and commit B is the parent of commit C. This history looks very similar to a CVCS. The arrow pointing to commit C is a branch. Branches are pointers to specific commits, which is why branching is so lightweight and easy in Git.
+
+A key difference in Git compared to CVCS is that the developer has their own full copy of the repo. They need to keep their local repository in sync with the remote repository by getting the latest commits from the remote repository. To do this, they pull the main branch with the following command:
+
+git pull origin main
+
+This merges all changes from the main branch in the remote repository, which Git names origin by default. This pull brought one new commit and the main branch in the local repo moves to that commit.
+Here is an example of Git history that more closely resembles code in active development on a team. There are three people who merge commits from their own branches into the main branch around the same time.
