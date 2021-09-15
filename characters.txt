@@ -6,5 +6,5 @@ Commit A is the parent of commit B, and commit B is the parent of commit C. This
 A key difference in Git compared to CVCS is that the developer has their own full copy of the repo. They need to keep their local repository in sync with the remote repository by getting the latest commits from the remote repository. To do this, they pull the main branch with the following command:
 
 git pull origin main
-
+git pull origin main
 This merges all changes from the main branch in the remote repository, which Git names origin by default. This pull brought one new commit and the main branch in the local repo moves to that commit.
