@@ -1,3 +1,7 @@
+------------
+Header
+------------
+
 Commit history basics
 Start with a simple history example: a repo with 3 linear commits.
 

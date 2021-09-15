@@ -1,3 +1,7 @@
+------------
+Header
+------------
+
 chapter 1:
 Understand branch history
 Now it's time to make a change to the code. It's common to have multiple active branches when working on different features in parallel. This is in stark contrast to CVCS where new branches are heavy and rarely created. The first step is to checkout to a new branch using the following command:
