@@ -8,3 +8,7 @@ This is a shortcut combining two commands:
 
 git branch cool-new-feature to create the branch
 git checkout cool-new-feature to begin working in the branch
+Two branches now point to the same commit. Suppose there are a few changes on the cool-new-feature branch in two new commits, E and F.
+The commits are reachable by the cool-new-feature branch since they were commited to that branch. Now that the feature is done, it needs to be merged into the main branch. To do that, use the following command:
+git merge cool-feature main
+The graph structure of history becomes visible when there's a merge. Git creates a new commit when the branch is merged into another branch. This is a merge commit. There aren't any changes included this merge commit since there were no conflicts. If there were conflicts, the merge commit would include the changes needed to resolve them.
